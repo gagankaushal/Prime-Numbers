@@ -20,7 +20,7 @@ function closePopup() {
 }
 function openPopup() {
     var t = document.getElementById(conversationDiv), e = document.getElementById("fo-toggle-button-icon");
-    addClass(e, "animate"), removeClass(e, "no-animate"), addClass(t, "open"), isPopupOpen = !0, localStorage.setItem("fobi-pop-up-open", "true")
+    addClass(e, "animate"), removeClass(e, "no-animate"), addClass(t, "open"), isPopupOpen = !0)
 }
 function alterPopupStatus() {
     isPopupOpen ? closePopup() : openPopup()
